@@ -4,6 +4,13 @@ export default {
   /*
   ** Headers of the page
   */
+  generate: {
+    routes: [
+      '/projects/1',
+      '/projects/2'
+    ]
+  },
+
   head: {
     title: process.env.npm_package_name || '',
     meta: [
